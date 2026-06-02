@@ -1,4 +1,4 @@
-# E1-C3 Challenge
+# Challenge: Beacon Period
 
 This project is a network forensics challenge focused on **malicious traffic analysis** and **beacon period extraction**.  
 The goal is to correlate multiple telemetry sources to identify suspicious periodic communication, map the infected host, and trace the control infrastructure.
