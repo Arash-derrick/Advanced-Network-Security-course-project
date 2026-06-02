@@ -1,4 +1,4 @@
-# E1-C3 Challenge
+# Challenge: Beacon Period
 
 ## Scenario
 
