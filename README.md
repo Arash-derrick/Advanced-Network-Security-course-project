@@ -14,8 +14,8 @@ Each subproject is organized in its own folder and includes:
 
 ## Projects
 
-| Project | Title | Description |
-|-----------|-------|-------------|
+| Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Title | Description |
+|-------|-------|-------------|
 | [project-01](./project-01/README.md) | Phishing Post-Mortem Analysis | Forensic reconstruction of a phishing campaign, including URL analysis, JavaScript reverse engineering, and credential exfiltration tracing. |
 | [project-02](./project-02/README.md) | C2 - The Ground Truth Detective | Cross-correlation of NetFlow, DHCP, EDR, and TLS fingerprints to reconstruct the ground truth of an intrusion. |
 | [project-03](./project-03/README.md) | Beacon Analysis | Detection and attribution of periodic beaconing behavior using network flow, DNS, DHCP, and ASN data. |
