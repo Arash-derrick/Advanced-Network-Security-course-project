@@ -1,4 +1,4 @@
-# Ex6: Silent Jammer (Selective Jamming)
+# challange 5: Silent Jammer (Selective Jamming)
 
 ## Overview
 This project focuses on a **selective jamming** challenge in a wireless communication setting.  
@@ -17,25 +17,27 @@ project-05/
 ├── README.md
 ├── src/
 └── scripts/
-└── solve_jam.py
-Project Workflow
-Start the environment with:
-bash
-   docker compose up --build
+```
+## Project Workflow
+   - Start the environment with:
+```text
+   docker compose up --build 
+```
    
-Study the communication flow between sender and receiver.
-Implement the selective jamming logic in solve_jam.py.
-Jam only the ACK at the correct moment.
-Avoid over-jamming so the receiver does not detect interference.
-Trigger the condition that makes the receiver print the flag.
-Key Idea
+   - Study the communication flow between sender and receiver.
+   - Implement the selective jamming logic in solve_jam.py.
+   - Jam only the ACK at the correct moment.
+   - Avoid over-jamming so the receiver does not detect interference.
+   - Trigger the condition that makes the receiver print the flag.
+## Key Idea
 The challenge is based on timing-sensitive wireless jamming:
 
-the sender transmits frames,
-the receiver responds with ACKs,
-only the ACK should be jammed,
-excessive interference causes detection.
+   - the sender transmits frames,
+   - the receiver responds with ACKs,
+   - only the ACK should be jammed,
+   - excessive interference causes detection.
+     
 This makes the challenge a good exercise in precise link-layer attack timing and controlled disruption.
 
-Deliverable
+## Deliverable
 The expected result is the exact flag printed by the receiver.
