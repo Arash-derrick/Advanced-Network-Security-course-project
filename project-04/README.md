@@ -33,7 +33,6 @@ project-04/
 │   └── server_source/
 │       └── server.py
 └── scripts/
-└── solve.py
 ```
 ## Expected Workflow
 	1- Connect to the service at x.y.z.w:2135.
