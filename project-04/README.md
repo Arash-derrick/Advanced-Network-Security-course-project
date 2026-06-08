@@ -33,15 +33,16 @@ project-04/
 │   └── server_source/
 │       └── server.py
 └── scripts/
+	└── exploit.py
 ```
 ## Expected Workflow
-	1- Connect to the service at x.y.z.w:2135.
-	2- Obtain or reuse a valid ticket for fast reconnect.
-	3- Send early data to the server.
-	4- Replay the same early-data block using the same ticket.
-	5- Trigger the non-idempotent action multiple times.
-	6- Increase the balance and retrieve the flag.
-	7- Write the exact flag value to flag.txt on a single line.
+1) Connect to the service at x.y.z.w:2135.
+2) Obtain or reuse a valid ticket for fast reconnect.
+3) Send early data to the server.
+4) Replay the same early-data block using the same ticket.
+5) Trigger the non-idempotent action multiple times.
+6) Increase the balance and retrieve the flag.
+70 Write the exact flag value to flag.txt on a single line.
 
 ## Deliverable
 The final output must be the exact flag value saved in:

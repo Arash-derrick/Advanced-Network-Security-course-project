@@ -1,4 +1,4 @@
-# Challange: Oracles Pulse (DNS Cache Timing Side-Channel)
+# Challenge: Oracles Pulse (DNS Cache Timing Side-Channel)
 
 ## Overview
 This project explores a **DNS cache timing side-channel attack**. In this scenario, a resolver caches DNS answers, and an internal bot keeps a specific "hot" domain in the cache. The goal is to act as an observer/attacker and identify which domain from a list of candidates is being kept "hot" by analyzing the response times of the DNS resolver.

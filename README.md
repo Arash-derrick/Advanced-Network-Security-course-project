@@ -22,7 +22,7 @@ Each subproject is organized in its own folder and includes:
 | [project-04](./project-04/README.md) | 0-RTT Replay | Exploitation of a 0-RTT replay vulnerability in a ticket-based fast reconnect protocol with missing replay protection. |
 | [project-05](./project-05/README.md) | Silent Jammer (Selective Jamming) | Implementation of a high-precision link-layer attack targeting ACK frames in a simulated RF environment, bypassing interference detection mechanisms. |
 | [project-06](./project-06/README.md) | DNS Cache Timing Side-Channel | Detection of a DNS cache timing oracle by probing candidate domains and inferring the hot cached domain through response-time differences. |
-| [project-07](./project-07/README.md) | Coming Soon | Placeholder for the next subproject. |
+| [project-07](./project-07/README.md) | DNS Transaction Insight | Automated mapping of DNS transactions to identify cached vs. uncached domains by analyzing Round-Trip Time (RTT) and transaction ID patterns. |
 | [project-08](./project-08/README.md) | Coming Soon | Placeholder for the next subproject. |
 | [project-09](./project-09/README.md) | Coming Soon | Placeholder for the next subproject. |
 | [project-10](./project-10/README.md) | Coming Soon | Placeholder for the final subproject. |

@@ -1,4 +1,4 @@
-# challenge: Phishing Post-Mortem Analysis
+# Challenge: Phishing Post-Mortem Analysis
 
 This subproject presents a forensic reconstruction of a phishing attack. By analyzing the phishing email, client-side JavaScript, access logs, and developed solution scripts, the attack chain was reversed to recover the exfiltrated credentials.
 
