@@ -1,4 +1,4 @@
-# Phishing Post-Mortem Analysis
+# challenge: Phishing Post-Mortem Analysis
 
 This subproject presents a forensic reconstruction of a phishing attack. By analyzing the phishing email, client-side JavaScript, access logs, and developed solution scripts, the attack chain was reversed to recover the exfiltrated credentials.
 
@@ -21,8 +21,8 @@ project-01/
 │   ├── mail.eml
 │   └── web_access.log
 └── scripts/
-├── decode-Base64.py
-└── decrypt_password.py
+    ├── decode-Base64.py
+    └── decrypt_password.py
 ```
 ## Technical Analysis
 1) Phishing URL and Campaign Tracking

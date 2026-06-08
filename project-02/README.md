@@ -1,4 +1,4 @@
-# The Ground Truth Detective Hard Mode
+# Challenge: The Ground Truth Detective Hard Mode
 
 This project is a digital forensics and threat-hunting exercise focused on reconstructing the **ground truth** of a suspicious incident by correlating multiple telemetry sources across the network and endpoint stack.
 
@@ -52,25 +52,28 @@ The analysis follows a correlation-based workflow:
 
 ## Repository Structure
 ```text
-.
-├── src/          # Original files provided by the instructor
-├── scripts/      # Solution scripts and analysis helpers
-└── README.md
-SHA-256 Verification
+project-02/
+├── README.md
+├── src/
+└── scripts/
+    └── SHA256.py
+```
+## SHA-256 Verification
 The repository includes a small helper script that generates a deterministic SHA-256 hash from the recovered forensic tuple:
 
-text
+```text
 process_name | process_id | utc_creation_time
+```
 This script is used as the final verification step after the ground truth has been reconstructed from the evidence.
 
-Skills Demonstrated
-Network forensic correlation
-Host attribution from DHCP/NAT artifacts
-Proxy and TLS fingerprint analysis
-Endpoint telemetry investigation
-Process provenance reconstruction
-SHA-256 based verification workflow
-Notes
+## Skills Demonstrated
+- Network forensic correlation
+- Host attribution from DHCP/NAT artifacts
+- Proxy and TLS fingerprint analysis
+- Endpoint telemetry investigation
+- Process provenance reconstruction
+- SHA-256 based verification workflow
+## Notes
 The repository is intentionally structured to emphasize analysis and methodology, not spoilers.
 No final answer or flag is stored in the repository.
 The final digest is generated only through the analysis process.
