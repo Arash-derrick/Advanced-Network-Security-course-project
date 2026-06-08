@@ -1,0 +1,3 @@
+FROM python:3.9-slim
+COPY upstream_server.py /server.py
+CMD ["python3", "-u", "/server.py"]

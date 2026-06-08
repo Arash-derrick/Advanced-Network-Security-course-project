@@ -1,0 +1,4 @@
+FROM python:3.9-slim
+RUN pip install dnspython
+COPY victim_bot.py /bot.py
+CMD ["python3", "-u", "/bot.py"]

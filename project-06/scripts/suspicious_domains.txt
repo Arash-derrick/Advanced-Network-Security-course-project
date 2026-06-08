@@ -1,0 +1,5 @@
+alpha-portal.internal
+bravo-auth.internal
+charlie-payroll.internal
+delta-vpn.internal
+echo-admin.internal

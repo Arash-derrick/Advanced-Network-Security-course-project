@@ -17,6 +17,7 @@ project-05/
 ├── README.md
 ├── src/
 └── scripts/
+    └── solve.py
 ```
 ## Project Workflow
    - Start the environment with:
